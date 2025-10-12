@@ -10,6 +10,3 @@ spec:
     - name: almalinux
       image: almalinux:9
       commandd: ["sleep","1000"]
-
-
-
