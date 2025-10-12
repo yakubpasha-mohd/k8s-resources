@@ -1,4 +1,4 @@
-apiVresion: v1
+apiVersion: v1
 Kind: Pod
 metadata: 
   name: nginx
