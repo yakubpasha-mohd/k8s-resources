@@ -14,14 +14,14 @@ spec:
   - protocol: TCP
     port: 89
     targetPort: 80
-    NodePort: 30001
+    nodePort: 30001
 
 ---
 apiVersion: v1
 kind: Pod
 metadata:
   name : backend-np
-  lablels:
+  labels:
     project: expense
     component: backend
     environment: dev
