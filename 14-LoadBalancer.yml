@@ -27,7 +27,7 @@ metadata:
     enviornment : dev
     version: "1.0.0"
     demo: lb
-  spec:
+spec:
     containers:
     - name: nginx
       image: nginx
