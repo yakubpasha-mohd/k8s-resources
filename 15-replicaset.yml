@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: nginx-replicaset
+  labels:
+    app: FrontEnd
+    Tier: Web
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: FrontEnd
+      Tier: Web
+  # POD teamplate
+  teamplate:
+    metadata:
+      labels:
+        app: FrontEnd
+        Tier: Web
+    spec:
+      containers:
+      - name: nginx
+        image: nginx
