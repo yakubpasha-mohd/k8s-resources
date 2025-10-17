@@ -9,7 +9,7 @@ spec:
     enviornment: dev
     version: "1.0.0"
   ports:
-  - protocal: TCP
+  - protocol: TCP
     port: 80
     targetPort: 80
 ---
