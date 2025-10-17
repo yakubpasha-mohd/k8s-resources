@@ -12,7 +12,7 @@ spec:
     matchLabels:
       app: nginx
       Tier: Frontend
-      purpose: apiVersion: apps/v1
+      purpose: deployment
   template:
     metadata:
       labels:
@@ -24,7 +24,5 @@ spec:
       - name: nginx
         image: nginx
         ports:
-        - containerPort: 80
-        
-      
+        - containerPort: 80      
 
