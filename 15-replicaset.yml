@@ -12,7 +12,7 @@ spec:
       app: FrontEnd
       Tier: Web
   # POD teamplate
-  teamplate:
+  template:
     metadata:
       labels:
         app: FrontEnd
