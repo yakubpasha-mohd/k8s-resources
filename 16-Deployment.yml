@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: Deployment-Demo
+  name: deployment-demo
   labels:
     app: nginx
     Tier: Frontend
